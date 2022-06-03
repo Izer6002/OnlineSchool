@@ -21,7 +21,9 @@ namespace OnlineSchool
 
         private void Main_Load(object sender, EventArgs e)
         {
-
+            lblName.Text = student.name + " " + student.surname;
         }
+
+       
     }
 }

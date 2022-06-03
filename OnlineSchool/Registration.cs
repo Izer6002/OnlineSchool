@@ -46,6 +46,15 @@ namespace OnlineSchool
                 txtGender.Text,
                 txtSchool.Text
                 );
+            SQLProcedures.insertStudent(students);
+            txtName.Text = " ";
+            txtSurname.Text = " ";
+            txtSignUpEmail.Text = " ";
+            txtSignUpPassword.Text = " ";
+            txtMobileNumber.Text = " ";
+            txtGrade.Text = " ";
+            txtGender.Text = " ";
+            txtSchool.Text = " ";
         }
 
         private void chkSignUpShowPassword_CheckedChanged(object sender, EventArgs e)

@@ -66,10 +66,9 @@
             this.LogIn.Controls.Add(this.txtLogInPassword);
             this.LogIn.Controls.Add(this.txtLogInEmail);
             this.LogIn.Controls.Add(this.lblLogInEmail);
-            this.LogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogIn.Location = new System.Drawing.Point(26, 138);
+            this.LogIn.Location = new System.Drawing.Point(20, 140);
             this.LogIn.Name = "LogIn";
-            this.LogIn.Size = new System.Drawing.Size(391, 165);
+            this.LogIn.Size = new System.Drawing.Size(359, 165);
             this.LogIn.TabIndex = 0;
             this.LogIn.TabStop = false;
             this.LogIn.Text = "Log In";
@@ -77,10 +76,9 @@
             // chkLogInShowPassword
             // 
             this.chkLogInShowPassword.AutoSize = true;
-            this.chkLogInShowPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkLogInShowPassword.Location = new System.Drawing.Point(259, 82);
+            this.chkLogInShowPassword.Location = new System.Drawing.Point(251, 84);
             this.chkLogInShowPassword.Name = "chkLogInShowPassword";
-            this.chkLogInShowPassword.Size = new System.Drawing.Size(126, 21);
+            this.chkLogInShowPassword.Size = new System.Drawing.Size(102, 17);
             this.chkLogInShowPassword.TabIndex = 5;
             this.chkLogInShowPassword.Text = "Show Password";
             this.chkLogInShowPassword.UseVisualStyleBackColor = true;
@@ -88,7 +86,6 @@
             // 
             // btnLogIn
             // 
-            this.btnLogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogIn.Location = new System.Drawing.Point(91, 119);
             this.btnLogIn.Name = "btnLogIn";
             this.btnLogIn.Size = new System.Drawing.Size(108, 30);
@@ -100,38 +97,32 @@
             // lblLogInPassword
             // 
             this.lblLogInPassword.AutoSize = true;
-            this.lblLogInPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLogInPassword.Location = new System.Drawing.Point(10, 80);
+            this.lblLogInPassword.Location = new System.Drawing.Point(-2, 85);
             this.lblLogInPassword.Name = "lblLogInPassword";
-            this.lblLogInPassword.Size = new System.Drawing.Size(81, 17);
+            this.lblLogInPassword.Size = new System.Drawing.Size(62, 13);
             this.lblLogInPassword.TabIndex = 3;
             this.lblLogInPassword.Text = "Password : ";
             // 
             // txtLogInPassword
             // 
-            this.txtLogInPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLogInPassword.Location = new System.Drawing.Point(91, 80);
-            this.txtLogInPassword.Multiline = true;
+            this.txtLogInPassword.Location = new System.Drawing.Point(66, 82);
             this.txtLogInPassword.Name = "txtLogInPassword";
-            this.txtLogInPassword.Size = new System.Drawing.Size(160, 20);
+            this.txtLogInPassword.Size = new System.Drawing.Size(177, 20);
             this.txtLogInPassword.TabIndex = 2;
             // 
             // txtLogInEmail
             // 
-            this.txtLogInEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLogInEmail.Location = new System.Drawing.Point(91, 30);
-            this.txtLogInEmail.Multiline = true;
+            this.txtLogInEmail.Location = new System.Drawing.Point(66, 34);
             this.txtLogInEmail.Name = "txtLogInEmail";
-            this.txtLogInEmail.Size = new System.Drawing.Size(160, 20);
+            this.txtLogInEmail.Size = new System.Drawing.Size(177, 20);
             this.txtLogInEmail.TabIndex = 1;
             // 
             // lblLogInEmail
             // 
             this.lblLogInEmail.AutoSize = true;
-            this.lblLogInEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLogInEmail.Location = new System.Drawing.Point(10, 30);
+            this.lblLogInEmail.Location = new System.Drawing.Point(7, 34);
             this.lblLogInEmail.Name = "lblLogInEmail";
-            this.lblLogInEmail.Size = new System.Drawing.Size(54, 17);
+            this.lblLogInEmail.Size = new System.Drawing.Size(41, 13);
             this.lblLogInEmail.TabIndex = 0;
             this.lblLogInEmail.Text = "Email : ";
             // 
@@ -155,10 +146,9 @@
             this.SignUp.Controls.Add(this.lblEmail);
             this.SignUp.Controls.Add(this.lblSurname);
             this.SignUp.Controls.Add(this.lblName);
-            this.SignUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SignUp.Location = new System.Drawing.Point(456, 48);
+            this.SignUp.Location = new System.Drawing.Point(400, 45);
             this.SignUp.Name = "SignUp";
-            this.SignUp.Size = new System.Drawing.Size(406, 360);
+            this.SignUp.Size = new System.Drawing.Size(388, 363);
             this.SignUp.TabIndex = 1;
             this.SignUp.TabStop = false;
             this.SignUp.Text = "Sign UP";
@@ -166,10 +156,9 @@
             // chkSignUpShowPassword
             // 
             this.chkSignUpShowPassword.AutoSize = true;
-            this.chkSignUpShowPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkSignUpShowPassword.Location = new System.Drawing.Point(279, 120);
+            this.chkSignUpShowPassword.Location = new System.Drawing.Point(284, 118);
             this.chkSignUpShowPassword.Name = "chkSignUpShowPassword";
-            this.chkSignUpShowPassword.Size = new System.Drawing.Size(126, 21);
+            this.chkSignUpShowPassword.Size = new System.Drawing.Size(102, 17);
             this.chkSignUpShowPassword.TabIndex = 19;
             this.chkSignUpShowPassword.Text = "Show Password";
             this.chkSignUpShowPassword.UseVisualStyleBackColor = true;
@@ -177,80 +166,63 @@
             // 
             // txtSchool
             // 
-            this.txtSchool.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSchool.Location = new System.Drawing.Point(115, 210);
-            this.txtSchool.Multiline = true;
             this.txtSchool.Name = "txtSchool";
-            this.txtSchool.Size = new System.Drawing.Size(160, 20);
+            this.txtSchool.Size = new System.Drawing.Size(163, 20);
             this.txtSchool.TabIndex = 18;
             // 
             // txtMobileNumber
             // 
-            this.txtMobileNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMobileNumber.Location = new System.Drawing.Point(115, 240);
-            this.txtMobileNumber.Multiline = true;
             this.txtMobileNumber.Name = "txtMobileNumber";
-            this.txtMobileNumber.Size = new System.Drawing.Size(160, 20);
+            this.txtMobileNumber.Size = new System.Drawing.Size(163, 20);
             this.txtMobileNumber.TabIndex = 17;
             // 
             // txtGrade
             // 
-            this.txtGrade.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGrade.Location = new System.Drawing.Point(115, 180);
-            this.txtGrade.Multiline = true;
             this.txtGrade.Name = "txtGrade";
-            this.txtGrade.Size = new System.Drawing.Size(160, 20);
+            this.txtGrade.Size = new System.Drawing.Size(163, 20);
             this.txtGrade.TabIndex = 16;
             // 
             // txtGender
             // 
-            this.txtGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGender.Location = new System.Drawing.Point(115, 150);
-            this.txtGender.Multiline = true;
             this.txtGender.Name = "txtGender";
-            this.txtGender.Size = new System.Drawing.Size(160, 20);
+            this.txtGender.Size = new System.Drawing.Size(163, 20);
             this.txtGender.TabIndex = 15;
             // 
             // txtSignUpPassword
             // 
-            this.txtSignUpPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSignUpPassword.Location = new System.Drawing.Point(115, 120);
-            this.txtSignUpPassword.Multiline = true;
             this.txtSignUpPassword.Name = "txtSignUpPassword";
-            this.txtSignUpPassword.Size = new System.Drawing.Size(160, 20);
+            this.txtSignUpPassword.Size = new System.Drawing.Size(163, 20);
             this.txtSignUpPassword.TabIndex = 13;
             // 
             // txtSurname
             // 
-            this.txtSurname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSurname.Location = new System.Drawing.Point(115, 60);
-            this.txtSurname.Multiline = true;
             this.txtSurname.Name = "txtSurname";
-            this.txtSurname.Size = new System.Drawing.Size(160, 20);
+            this.txtSurname.Size = new System.Drawing.Size(163, 20);
             this.txtSurname.TabIndex = 12;
             // 
             // txtSignUpEmail
             // 
-            this.txtSignUpEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSignUpEmail.Location = new System.Drawing.Point(115, 90);
-            this.txtSignUpEmail.Multiline = true;
             this.txtSignUpEmail.Name = "txtSignUpEmail";
-            this.txtSignUpEmail.Size = new System.Drawing.Size(160, 20);
+            this.txtSignUpEmail.Size = new System.Drawing.Size(163, 20);
             this.txtSignUpEmail.TabIndex = 11;
             // 
             // txtName
             // 
-            this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtName.Location = new System.Drawing.Point(115, 30);
-            this.txtName.Multiline = true;
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(160, 20);
+            this.txtName.Size = new System.Drawing.Size(163, 20);
             this.txtName.TabIndex = 10;
             // 
             // btnSignUp
             // 
-            this.btnSignUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSignUp.Location = new System.Drawing.Point(135, 300);
+            this.btnSignUp.Location = new System.Drawing.Point(115, 310);
             this.btnSignUp.Name = "btnSignUp";
             this.btnSignUp.Size = new System.Drawing.Size(118, 35);
             this.btnSignUp.TabIndex = 9;
@@ -261,80 +233,72 @@
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.Location = new System.Drawing.Point(6, 120);
+            this.lblPassword.Location = new System.Drawing.Point(16, 120);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(77, 17);
+            this.lblPassword.Size = new System.Drawing.Size(59, 13);
             this.lblPassword.TabIndex = 8;
             this.lblPassword.Text = "Password :";
             // 
             // lblMobileNumber
             // 
             this.lblMobileNumber.AutoSize = true;
-            this.lblMobileNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMobileNumber.Location = new System.Drawing.Point(6, 240);
+            this.lblMobileNumber.Location = new System.Drawing.Point(16, 240);
             this.lblMobileNumber.Name = "lblMobileNumber";
-            this.lblMobileNumber.Size = new System.Drawing.Size(111, 17);
+            this.lblMobileNumber.Size = new System.Drawing.Size(84, 13);
             this.lblMobileNumber.TabIndex = 7;
             this.lblMobileNumber.Text = "Mobile Number :";
             // 
             // lblSchool
             // 
             this.lblSchool.AutoSize = true;
-            this.lblSchool.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSchool.Location = new System.Drawing.Point(6, 210);
+            this.lblSchool.Location = new System.Drawing.Point(16, 210);
             this.lblSchool.Name = "lblSchool";
-            this.lblSchool.Size = new System.Drawing.Size(59, 17);
+            this.lblSchool.Size = new System.Drawing.Size(46, 13);
             this.lblSchool.TabIndex = 6;
             this.lblSchool.Text = "School :";
             // 
             // lblGrade
             // 
             this.lblGrade.AutoSize = true;
-            this.lblGrade.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGrade.Location = new System.Drawing.Point(6, 180);
+            this.lblGrade.Location = new System.Drawing.Point(16, 180);
             this.lblGrade.Name = "lblGrade";
-            this.lblGrade.Size = new System.Drawing.Size(56, 17);
+            this.lblGrade.Size = new System.Drawing.Size(42, 13);
             this.lblGrade.TabIndex = 5;
             this.lblGrade.Text = "Grade :";
             // 
             // lblGender
             // 
             this.lblGender.AutoSize = true;
-            this.lblGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGender.Location = new System.Drawing.Point(6, 150);
+            this.lblGender.Location = new System.Drawing.Point(16, 150);
             this.lblGender.Name = "lblGender";
-            this.lblGender.Size = new System.Drawing.Size(64, 17);
+            this.lblGender.Size = new System.Drawing.Size(48, 13);
             this.lblGender.TabIndex = 4;
             this.lblGender.Text = "Gender :";
             // 
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmail.Location = new System.Drawing.Point(6, 90);
+            this.lblEmail.Location = new System.Drawing.Point(16, 90);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(50, 17);
+            this.lblEmail.Size = new System.Drawing.Size(38, 13);
             this.lblEmail.TabIndex = 2;
             this.lblEmail.Text = "Email :";
             // 
             // lblSurname
             // 
             this.lblSurname.AutoSize = true;
-            this.lblSurname.Font = new System.Drawing.Font("Microsoft Tai Le", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSurname.Location = new System.Drawing.Point(6, 60);
+            this.lblSurname.Location = new System.Drawing.Point(16, 60);
             this.lblSurname.Name = "lblSurname";
-            this.lblSurname.Size = new System.Drawing.Size(69, 18);
+            this.lblSurname.Size = new System.Drawing.Size(55, 13);
             this.lblSurname.TabIndex = 1;
             this.lblSurname.Text = "Surname :";
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(6, 30);
+            this.lblName.Location = new System.Drawing.Point(16, 30);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(53, 17);
+            this.lblName.Size = new System.Drawing.Size(41, 13);
             this.lblName.TabIndex = 0;
             this.lblName.Text = "Name :";
             // 
@@ -342,15 +306,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.ClientSize = new System.Drawing.Size(890, 487);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.SignUp);
             this.Controls.Add(this.LogIn);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "Registration";
-            this.Text = "Registration";
+            this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.LogIn.ResumeLayout(false);
             this.LogIn.PerformLayout();
